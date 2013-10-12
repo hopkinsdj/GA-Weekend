@@ -48,6 +48,18 @@ body{
           font-size:12px;
 }
 
+main{
+
+          float:left;
+           width:640px;
+}
+
+aside{
+          width:290px;
+          float:left;
+          background-color:white;
+          margin: 10px 0px 0px 10px;
+}
 
 h1 {
           text-indent: 100%;

@@ -1,5 +1,5 @@
-/*----------------------------------------------------------------------------- 
-GENERAL 
+/*-----------------------------------------------------------------------------
+GENERAL
 -----------------------------------------------------------------------------*/
 
 body,html {
@@ -11,11 +11,57 @@ body,html {
 
 header {
 	background: #000;
-	height: 80px;	
+	height: 80px;
 }
 
-/*----------------------------------------------------------------------------- 
-NAVIGATION 
+.clearfix:after {
+             content: ".";
+             display: block;
+             clear: both;
+             visibility: hidden;
+             line-height: 0;
+             height: 0;
+
+
+}
+
+.clear {
+            clear: both;
+}
+
+nav {
+            height: 40px;
+}
+
+li{
+
+            float:left;
+            width:150px;
+            margin:0 5px;
+}
+
+nav ul li a{
+
+            color:white;
+            text-decoration:none;
+            font-size:20px;
+            text-align: center;
+            padding:25px 0;
+            vertical-align:middle;
+            display:block;
+            font-family:Sans-serif;
+
+}
+
+nav ul {
+            padding:0;
+}
+
+nav ul li a:hover, a.active{
+            background-image: url("../images/bg_nav_rollover.png");
+
+/*-----------------------------------------------------------------------------
+NAVIGATION
 -----------------------------------------------------------------------------*/
 
 
