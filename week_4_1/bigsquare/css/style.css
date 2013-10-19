@@ -18,6 +18,21 @@ Version: 0.00001
 /*----------------------------------------------------------------------------- 
 =01 BODY 
 -----------------------------------------------------------------------------*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: both;
+}
+
+
+
 
 body {
 	margin: 0px;
@@ -75,7 +90,11 @@ a {
 	text-decoration:none;
 }
 
-p { margin: 0px 0px 15px 0px; } /* there's no explicit rule, but putting about 15px margin only to the bottom of your p is generally a good rule of thumb */
+p { margin: 0px 0px 0px 0px; 
+	line-height: 1.4;
+
+
+	} /* there's no explicit rule, but putting about 15px margin only to the bottom of your p is generally a good rule of thumb */
 
 
 /*----------------------------------------------------------------------------- 
