@@ -1,0 +1,93 @@
+
+
+/*****************************/		
+/*        GENERAL             *
+/*****************************/	
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+    clear: both;
+
+}
+
+body{
+
+	background-image: url("../images/bg-gradient.jpg");
+	background-repeat: repeat-x;
+}
+li{
+	float: left;
+	width:100px;
+    height:40px;
+	padding: 30px;
+}
+
+
+p{
+
+	float: right;
+	background:white;
+	padding: 20px;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+nav{
+    width:770px;
+    margin: 0  auto;
+}
+
+nav ul {
+    padding:0px;
+
+}
+
+nav ul li a {
+
+    text-decoration:none;
+    text-transform: uppercase;
+    font-weight:bold;
+    background-image: url("../images/menu-sprite.jpg");
+	overflow: hidden;
+	display: block;
+	height: 60px;
+	width: 125px;
+	float: left;
+	background-position-y: 60px;
+}
+
+nav ul li a:hover {
+	background-position-y: -4px;
+}
+
+li.home a {
+	background-position-x: 0px;
+}
+
+li.about a {
+	background-position-x: 290px;
+}
+
+li.contact a {
+	background-position-x: 140px;
+}
+   
+	
+
+
+
+
+/*****************************/		
+/*  CSS SPRITE NAVIGATION     *
+/*****************************/	
+	
+
+	
